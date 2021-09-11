@@ -1,0 +1,92 @@
+body {
+    font-size: 16px;
+    color: coral;
+    background-color: rgb(248, 217, 217);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header-nav {
+    background-color: #adb5bd;
+    border-radius: 2%;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar-brand h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: palevioletred;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: .75;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px rgb(54, 0, 0);
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: rgb(197, 55, 97);
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav-list a:hover {
+    background-color: rgb(63, 56, 56);
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.ourmenu {
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 2px 2px 2px rgb(54, 0, 0);
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box-1 , .box-2 , .box-3 {
+    border: 2px solid rgb(54, 0, 0);
+    background-color: #adb5bd ;
+    margin-bottom: 10px;
+}
+
+.box-1-title , .box-2-title, .box-3-title {
+   
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.box-1-content , .box-2-content , .box-3-content {
+
+    font-style: italic;
+    color: palevioletred;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+@media (max-width:767px) {
+    #main-content {
+        padding-left:10%;
+        padding-right: 10%;
+    }
+}
